@@ -27,17 +27,17 @@
 } */
 
 .bc-lrb {
-    background: hsl(241, 81%, 54%);
+    background: hsl(240, 27%, 26%);
 }
 
 /* Gradient Colors */
 
 .gc-1 {
-    background: radial-gradient(circle 49rem at 50% 93%, hsla(241, 72%, 46%, 0.94), rgba(78, 33, 202, 0.575));
+    background: linear-gradient(rgba(78, 33, 202, 0.889), hsl(241, 72%, 46%));
 }
 
 .gc-2 {
-    background: radial-gradient(circle 7rem at 50% 93%, hsla(241, 72%, 46%, 0.94), rgba(78, 33, 202, 0.575));
+    background: linear-gradient(rgb(78, 33, 202), hsla(241, 72%, 46%, 0.15));
 }
 
 /* Neutral Colors */
@@ -70,6 +70,10 @@
 
 .flex {
     display: flex;
+}
+
+.flex-1 {
+    flex: 1;
 }
 
 .flex-col {
