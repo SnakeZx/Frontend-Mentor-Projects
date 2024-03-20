@@ -1,0 +1,94 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: 'Young Serif', sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%; /* Fallback CSS for IE 4-6 and older browsers. Note: Without this setting, body below cannot achieve 100% height. */
+    height: 100vh;
+}
+
+body {
+    height: auto; /* Allows content to grow beyond the page without overflow */
+    width: auto; /* Allows content to grow beyond the page without overflow */
+    min-height: 100%; /* Starts web page with 100% height. Fallback for IE 4-6 and older browsers */
+    min-height: 100vh;
+    line-height: 1.5rem;
+}
+
+/* Wrapper */
+.wrapper {
+    height: auto;
+    max-width: 35%;
+    margin: auto;
+    margin-top: 3rem;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+/* Header */
+
+.heading-container{
+    margin-bottom: 1.25rem;
+}
+
+.header-img {
+    background: url('../assets/images/image-omelette.jpeg') no-repeat center center/cover;
+    height: 250px;
+    width: 100%;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.heading-title {
+    font-size: 2rem;
+    padding: 1.25rem 0;
+    font-family: 'Young Serif';
+}
+
+.heading-content {
+    font-size: 1rem;
+    font-family: 'Outfit' ;
+}
+
+/* Main Content Container */
+
+/* Prep time */
+.preparation-container {
+    padding: 1.4rem;
+    border-radius: 1rem;
+}
+
+.preparation-title {
+    font-size: larger;
+}
+
+.preparation-list {
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+}
+
+.preparation-list li {
+    list-style:disc;
+    padding-left: 1rem;
+    line-height: 2rem;
+    color: hsl(30, 10%, 34%);
+}
+
+.preparation-list li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+
+
+

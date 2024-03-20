@@ -1,0 +1,35 @@
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.bg-primary {
+    background: hsl(30, 54%, 90%);
+}
+
+.bg-white {
+    background: hsl(0, 0%, 100%);
+}
+
+.bg-rose-white {
+    background: hsl(330, 100%, 98%)
+}
+
+.txt-dark-charcoal {
+    color: hsl(24, 5%, 18%);
+}
+
+.txt-dark-raspbery {
+    color: hsl(332, 51%, 32%);
+}
+
+.lead-text {
+    font-weight: bold;
+}
